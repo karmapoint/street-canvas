@@ -176,8 +176,8 @@
     "webpack-manifest-plugin": "^1.0.1"
   },
   "engines": {
-    "node": "4.1.1",
-    "npm": "2.1.x"
+    "node": "6.2.x",
+    "npm": "3.9.x"
   },
   "ava": {
     "files": [
