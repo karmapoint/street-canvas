@@ -8,6 +8,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 module.exports = {
+  entry: ['babel-polyfill', __dirname + "/client/index.js"] ,
   output: {
     publicPath: '/',
     filename: 'app.js',
