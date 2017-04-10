@@ -10,6 +10,7 @@ if (process.env.NODE_ENV === 'production') {
 module.exports = {
   output: {
     publicPath: '/',
+    filename: 'app.js',
     libraryTarget: 'commonjs2',
   },
   resolve: {
